@@ -1,0 +1,135 @@
+@import
+url(<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Serif', sans-serif;
+    text-align: center;
+}
+
+.clearfix::after,
+footer::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* HEADER */
+
+header {
+    background: #bfbfbf;
+    width: 100%;
+    margin-top: ; /*DONT CHANGE THIS you can't tell me what to do*/
+    padding: .01em;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.25em;
+    padding: .1em;
+    color: black; 
+}
+}
+
+/* CONTENT */
+
+.container {
+    background-image: url(../bgd.jpg);
+}
+#sokopchinja {
+    display: block;
+}
+
+.kopchinja1 {
+    display: inline-grid;
+    width: 20%;
+    margin-top: 10%;
+    border-style: solid;
+    padding-bottom: 2%;
+
+    -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.kopchinja1:hover,
+.kopchinja1:active {
+    background-color: grey;
+    cursor: pointer;
+}
+
+#ISTORIJA,
+#AVTOBUSKI,
+#NASTANI {
+    padding-bottom: 3%;
+}
+#DOMUVANJE {
+}
+
+.titleh {
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+    .titleh {
+        margin: 3%;
+    }
+    #NASTANI {
+        padding-bottom: 7.5%;
+    }
+    #ISTORIJA, #AVTOBUSKI {
+        padding-bottom: 5.5%;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1025px) {
+    #NASTANI {
+        padding-bottom: 4.6%;
+    } 
+    #ISTORIJA, #AVTOBUSKI {
+        padding-bottom: 4.6%;
+    } 
+}
+@media (max-width: 768px) {
+    .titleh {
+        margin: 3%;
+    }
+    #NASTANI {
+        padding-bottom: 14.4%;
+    }
+    #ISTORIJA, #AVTOBUSKI {
+        padding-bottom: 12%;
+    }
+}
+
+@media (max-width: 425px) {
+    #sokopchinja {
+    display: inline-block;
+}
+    .kopchinja1 {
+    display: block;
+    width: auto;
+    margin-top: 10%;
+    border-style: solid;
+    padding-bottom: 2%;
+}
+    
+    .titleh {
+        margin: 3%;
+    }
+    #NASTANI {
+        padding-bottom: 5.5%;
+    }
+    #ISTORIJA, #AVTOBUSKI {
+        padding-bottom: 5.5%;
+    }
+}

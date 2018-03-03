@@ -1,0 +1,120 @@
+@import
+url(<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">);
+
+body {
+    margin: 0;
+    font-family: 'Noto Serif', sans-serif;
+    text-align: center;
+    background: #d5d5d5;
+}
+* {
+    box-sizing: border-box;
+}
+/* Headerot */
+header {
+    background: #bfbfbf;
+    width: 100%;
+    margin-top: 3em; /*DONT CHANGE THIS*/
+    padding: .01em;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.25em;
+    padding: .1em;
+    color: black; 
+}
+
+header nav {
+    top: 0;
+    width: 100%;
+    background: #bfbfbf;
+    position: fixed;
+    padding: .1em;
+}
+
+header nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+header nav li:last-of-type {
+    margin-right: 2.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: .5em;
+}
+
+header nav a:hover {
+    color: #DDD;
+}
+
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+#listata {
+    display: block;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 0%;
+    background-color: white;
+}
+
+#checkboxes {
+    display: block;
+    width: 100%;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    height: 5%;
+}
+
+#izberete {
+    margin-top: 5%; 
+}
+
+.skrijgo {
+    display: none;
+}
+
+#kartata {
+    margin-top: 2%;
+    float: left;
+    width: 50%;
+}
+
+#tekstovite {
+    float: right;
+    margin-top: 15%;
+    width: 50%;
+}
+
+.informacii {
+    padding: 1%;
+    margin-right: 50%;
+    border-style: dashed;
+    border-color: black;
+}
+
+#mitegeo {
+    text-align: center;
+    float: center;
+}
