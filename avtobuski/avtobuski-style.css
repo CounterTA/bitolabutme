@@ -1,0 +1,224 @@
+@import
+url(<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Serif', sans-serif;
+    text-align: center;
+}
+
+.clearfix::after,
+footer::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* HEADER */
+
+header {
+    background: #bfbfbf;
+    width: 100%;
+    margin-top: 3em; /*DONT CHANGE THIS*/
+    padding: .01em;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.25em;
+    padding: .1em;
+    color: black; 
+}
+
+header nav {
+    top: 0;
+    width: 100%;
+    background: #bfbfbf;
+    position: absolute; 
+    padding: .1em;
+}
+
+header nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+header nav li :last-of-type {
+    margin-right: 2.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: .5em;
+}
+
+header nav a:hover,
+header nav a:focus {
+    color: #DDD;
+}
+
+/* CONTENT */
+body {
+    background-color: #d5d5d5;
+}
+.tekst {
+    display: inline-block;
+    float: center;
+    width: 60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-color: red;
+    border-style: solid;
+    padding: 1%;
+}
+#odberi {
+	display: block;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-top: 3%;
+	background-color: white;
+}
+
+#odberiIme {
+	display: block;
+	margin: 0, auto;
+	width: 100%;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	overflow: hidden;
+}
+
+.odbiranje {
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%;
+    width: 40%;
+}
+
+#kopchinjata {
+	display: inline-block;
+	width: 100%;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-top-style: none;
+	height: 5%;
+    padding: 1%;
+}
+
+label.checkbox {
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 1%;
+}
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+table {
+    width: 50%;
+}
+
+/* LINE 1 */
+
+#oneline {
+	position: relative;
+	float: center;
+}
+
+#onestop {
+	width: 1.5%;
+	border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+	position: absolute;
+	bottom: 50%;
+	left: 13%;
+}
+
+
+#fstop2 {
+	width: 1.5%;
+	border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+	position: absolute;
+	bottom: 57%;
+	left: 57%;
+}
+
+#fstop3 {
+	width: 1.5%;
+	border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+	position: absolute;
+	bottom: 54%;
+	left: 63%;
+}
+
+#fstop4 {
+	width: 1.5%;
+	border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+	position: absolute;
+	bottom: 39%;
+	left: 60%;
+}
+
+#fstop5 {
+	width: 1.5%;
+	border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+	position: absolute;
+	bottom: 41%;
+	left: 35%;
+}
+
+#pat1 {
+	width: 1.5%;
+    position: absolute;
+}
+
+#tabeli {
+    margin-bottom: 3%;
+}
+/* END OF LINE 1*/
+.skrijgo {
+	display: none;
+}
+
+div label {
+    border-style: ;
+    margin: 3%;
+    padding: 0% 1% 0% 1%;
+}
+
+div label:hover,
+div label:active {
+    background-color: grey;
+}

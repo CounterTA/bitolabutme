@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+	<title>Мапи на Домување</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+	<header>
+
+	            <div class="logo">
+	                <h1>Мапи на Домување во Битола</h1>
+	            </div>
+
+	            <nav>
+	                <ul>
+	                    <li><a href="../homepage/homepage.html">Дома</a></li>
+	                    <li><a href="../istorija/history.html">Историја</a></li>
+	                    <li><a href="../avtobuski/avtobuski.html">Автобуски линии</a></li>
+	                    <li><a href="../domuvanje/strana.html">Домување во Битола</a></li>
+	                    <li><a href="https://www.facebook.com/events/discovery/?suggestion_token=%7B%22city%22%3A%22108187299203608%22%7D&acontext=%7B%22ref%22%3A2%2C%22ref_dashboard_filter%22%3A%22upcoming%22%2C%22source%22%3A2%2C%22source_dashboard_filter%22%3A%22discovery%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22dashboard%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22main_list%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22dashboard_filter%5C%22%3A%5C%22upcoming%5C%22%7D%7D%2C%7B%5C%22surface%5C%22%3A%5C%22discover_filter_list%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22dashboard_filter%5C%22%3A%5C%22discovery%5C%22%7D%7D]%22%2C%22has_source%22%3Atrue%7D">Настани во Битола</a></li>
+	                </ul>
+	            </nav>
+
+    </header>
+    <!-- Voved vo temata -->
+   <section>
+   		<h2 style="text-align: center; margin-top: 3%;">Што е со домувањето во Битола?</h2>
+   		<p style="margin-left: 30%; margin-right: 30%; font-size: 18px;">Битола како град нуди бројни можности за домување, кои се разликуваат според повеќе фактори. Секој маж и секоја жена претпочита различни услови. Затоа, ние ви овозможуваме да изберете сами.</p>
+   </section>
+   
+   <!--Radio checkboxes -->
+   <h2 id="izberete">Изберете фактор според кој сакате да споредите поволност:</h2>
+   <section id="listata">
+   		<div id="checkboxes" class="unselectable">
+   			<label><input type="Radio" id="ekoloshki" name="karta">Еколошки фактори</label>
+   			<label><input type="Radio" id="socio" name="karta">Социо-економски фактори</label>
+   			<label><input type="Radio" id="prirodni" name="karta">Природно-географски фактори</label><br>
+   			<label><input type="Radio" id="infra" name="karta">Инфраструктурни фактори</label>
+   			<label><input type="Radio" id="site" name="karta">Сите фактори</label>
+   		</div>
+	</section>
+
+	<!-- Kartite -->
+	<section style="display: block;">
+		<div id="kartata">
+			<img src="./ekoloshki.png" id="ekoloshkislika" class="skrijgo">
+			<img src="./socio.png" id="socioslika" class="skrijgo">
+			<img src="./prirodno-geografski.png" id="prirodnislika" class="skrijgo">
+			<img src="./infrastrukturni.png" id="infraslika" class="skrijgo">
+			<img src="./site.png" id="siteslika" class="skrijgo">
+		</div>
+		<div id="tekstovite">
+			<p class="skrijgo informacii" id="ekoloshkitekst">Во оваа категорија спаѓа влијанието на далекуводите, степенот на бучава и емисии на штетни гасови, близината до шума, непланската станбена изградба, дивите депонии, степенот на загаденост на воздухот и близината до индустриските објекти.</p>
+			<p class="skrijgo informacii" id="sociotekst">Во оваа категорија спаѓа близината на паркови и шумски појаси, близината на детски игралишта и спортски терени, близината на пазари и супермаркети, близина на автобуски постојки, близина на детски градинки, близината на основни училишта, близината на здравствен дом и болници и близината до центарот на Битола.</p>
+			<p class="skrijgo informacii" id="prirodnitekst">Во оваа категорија спаѓа близината до раседна зона, деградирањето на земјоделското земјиште, наклонот на земјиштето и заканата од поплави.</p>
+			<p class="skrijgo informacii" id="infratekst">Во оваа категорија спаѓа инфраструктурната стабилност како депонирањето на отпадот, канализационата мрежа, снабдувањето на домаќинства со вода за пиење и електрична енергија, и брзите сообраќајници (магистралните улици).</p>
+			<p class="skrijgo informacii" id="sitetekst">Во оваа категорија се сите предходно спомнати фактори преклопени на една карта.</p>
+		</div>
+	</section>
+	<section>
+		<div style="display: inline-block; float: center;">
+			<p id="mitegeo" class="skrijgo">Повеќе информации можете да најдете на <a href="https://bitoladomuvanje.weebly.com/1060107210821090108610881080-10791072-10761086108410911074107211141077.html"> следниов линк.</a><br> Сите карти се изработени од Мите Ристов, професор по географија во СОУ Гимназија „Јосип Броз-Тито“-Битола и СОУ „Јане Сандански“-Битола, и се објавени со негова дозвола.
+			</p>
+		</div>
+	</section>
+</body>
+</html>

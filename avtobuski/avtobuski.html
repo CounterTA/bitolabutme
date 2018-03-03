@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="mk">
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <title>ИНФОРМАТИВНА СТРАНА ЗА БИТОЛА</title>
+        <link rel="stylesheet" type="text/css" href="./avtobuski-style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="avtobuski-script.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="logo">
+                <h1>АВТОБУСКИ ЛИНИИ<br>BUS LINES</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="../HOMEPAGE/homepage.html">Дома</a></li>
+                    <li><a href="../ISTORIJA/history.html">Историја</a></li>
+                    <li><a href="avtobuski.html">Автобуски линии</a></li>
+                    <li><a href="../domuvanje/strana.html">Домување во Битола</a></li>
+                    <li><a href="https://www.facebook.com/events/discovery/?suggestion_token=%7B%22city%22%3A%22108187299203608%22%7D&acontext=%7B%22ref%22%3A2%2C%22ref_dashboard_filter%22%3A%22upcoming%22%2C%22source%22%3A2%2C%22source_dashboard_filter%22%3A%22discovery%22%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22dashboard%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22main_list%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22dashboard_filter%5C%22%3A%5C%22upcoming%5C%22%7D%7D%2C%7B%5C%22surface%5C%22%3A%5C%22discover_filter_list%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A%7B%5C%22dashboard_filter%5C%22%3A%5C%22discovery%5C%22%7D%7D]%22%2C%22has_source%22%3Atrue%7D">Настани во Битола</a></li>
+
+                </ul>
+            </nav>
+
+        </header>
+
+        <section id="odberi">
+            <div id="odberiIme">
+                <h1 class="odbiranje" style="float: left;">Одбери автобуска линија:</h1>
+                <h1 class="odbiranje" style="float: right;">Choose bus line:</h1>
+            </div>
+
+            <div id="kopchinjata" class="unselectable">
+                <label><input type="radio" id="one" name="karta">Line 1</label>
+                <label><input type="radio" id="four" name="karta">Line 4</label>
+                <label><input type="radio" id="five" name="karta">Line 5</label><br>
+                <label><input type="radio" id="fivea" name="karta">Line 5A</label>
+                <label><input type="radio" id="six" name="karta">Line 6</label>
+            </div>
+
+        </section>
+
+                <section style="display: block;">
+                    <div class="tekst">
+                        Со точка се означени постојките кои се споредни. Времето кога автобусот пристига на овие постојки не е секогаш прецизно. Времето на пристигање е секогаш во периодот меѓу пристигањето на двете соседни главни постојки.
+                    </div>
+                    <div id="kartata">
+                        <img src="./one.jpg" id="oneline" class="skrijgo">
+                        <img src="./four.jpg" id="fourline" class="skrijgo">
+                        <img src="./five.jpg" id="fiveline" class="skrijgo">
+                        <img src="./fivea.jpg" id="fivealine" class="skrijgo">
+                        <img src="./six.jpg" id="sixline" class="skrijgo" style="width: 80%;">
+                    </div>
+                    <br>
+                    <div id="tabeli">
+                            <table align="center" border="1" class="skrijgo informacii" id="onetable">
+                                <tr> 
+                                    <th>Main stop A<hr>Brusnicka naselba<br>Брусничка населба</th>
+                                    <th>Main stop B<hr>Javor<br>Јавор</th>
+                                    <th>Main stop C<hr>At-pazar<br>Ат-пазар</th>
+                                    <th>Main stop D<hr>Rakometno<br>Ракометно</th>
+                                    <th>Main stop E<hr>Bolnica<br>Болница</th>
+                                </tr>
+                                <tr>
+                                    <td>6:20</td><td>6:30</td><td>6:35</td><td>6:45</td><td>6:50</td>
+                                </tr>
+                                <tr>
+                                    <td>7:00</td><td>7:10</td><td>7:15</td><td>7:25</td><td>7:30</td>
+                                </tr>
+                                <tr>
+                                    <td>7:40</td><td>7:50</td><td>7:55</td><td>8:05</td><td>8:10</td>
+                                </tr>
+                                <tr>
+                                    <td>8:20</td><td>8:30</td><td>8:35</td><td>8:45</td><td>8:50</td>
+                                </tr>
+                                <tr>
+                                    <td>9:00</td><td>9:10</td><td>9:15</td><td>9:25</td><td>9:30</td>
+                                </tr>
+                                <tr>
+                                    <td>9:40</td><td>9:50</td><td>9:55</td><td>10:05</td><td>10:10</td>
+                                </tr>
+                                <tr>
+                                    <td>10:20</td><td>10:30</td><td>10:35</td><td>10:45</td><td>10:50</td>
+                                </tr>
+                                <tr>
+                                    <td>11:00</td><td>11:10</td><td>11:15</td><td>11:25</td><td>11:30</td>
+                                </tr>
+                                <tr>
+                                    <td>11:40</td><td>11:50</td><td>11:55</td><td>12:05</td><td>12:10</td>
+                                </tr>
+                                <tr>
+                                    <td>12:20</td><td>12:30</td><td>12:35</td><td>12:45</td><td>12:50</td>
+                                </tr>
+                                <tr>
+                                    <td>13:00</td><td>13:10</td><td>13:15</td><td>13:25</td><td>13:30</td>
+                                </tr>
+                                <tr>
+                                    <td>13:40</td><td>13:50</td><td>13:55</td><td>14:05</td><td>14:10</td>
+                                </tr>
+                                <tr>
+                                    <td>14:20</td><td>14:30</td><td>14:35</td><td>14:45</td><td>14:50</td>
+                                </tr>
+                                <tr>
+                                    <td>15:00</td><td>15:10</td><td>15:15</td><td>15:25</td><td>15:30</td>
+                                </tr>
+                                <tr>
+                                    <td>15:40</td><td>15:50</td><td>15:55</td><td>16:05</td><td>16:10</td>
+                                </tr>
+                                <tr>
+                                    <td>16:20</td><td>16:30</td><td>16:35</td><td>16:45</td><td>16:50</td>
+                                </tr>
+                                <tr>
+                                    <td>17:00</td><td>17:10</td><td>17:15</td><td>17:25</td><td>17:30</td>
+                                </tr>
+                                <tr>
+                                    <td>17:40</td><td>17:50</td><td>17:55</td><td>18:05</td><td>18:10</td>
+                                </tr>
+                                <tr>
+                                    <td>18:20</td><td>18:30</td><td>18:35</td><td>18:45</td><td>18:50</td>
+                                </tr>
+                                <tr>
+                                    <td>19:00</td><td>19:10</td><td>19:15</td><td>19:25</td><td>19:30</td>
+                                </tr>
+                                <tr>
+                                    <td>19:40</td><td>19:50</td><td>19:55</td><td>20:05</td><td>20:10</td>
+                                </tr>
+                                <tr>
+                                    <td>20:20</td><td>20:30</td><td>20:35</td><td>20:45</td><td>20:50</td>
+                                </tr>
+                                <tr>
+                                    <td>21:00</td>
+                                </tr>
+                            </table>
+                            <table align="center" border="1" class="skrijgo informacii" id="fourtable">
+                                <tr>
+                                    <th>Main stop A<hr>Gorno Orizari<br>Горно Оризари</th>
+                                    <th>Main stop B<hr>Seherzada<br>Шехерзада</th>
+                                    <th>Main stop C<hr>Bolnica<br>Болница</th>
+                                    <th>Main stop D<hr>At-pazar<br>Ат-пазар</th>
+                                </tr>
+                                <tr>
+                                    <td>-</td><td>-</td><td>-</td><td>6:05</td>
+                                </tr>
+                                <tr>
+                                    <td>6:15</td><td>6:25</td><td>6:35</td><td>6:45</td>
+                                </tr>
+                                <tr>
+                                    <td>6:55</td><td>7:05</td><td>7:15</td><td>7:25</td>
+                                </tr>
+                                <tr>
+                                    <td>7:35</td><td>7:45</td><td>7:55</td><td>8:05</td>
+                                </tr>
+                                <tr>
+                                    <td>8:15</td><td>8:25</td><td>8:35</td><td>8:45</td>
+                                </tr>
+                                <tr>
+                                    <td>8:55</td><td>9:05</td><td>9:15</td><td>9:25</td>
+                                </tr>
+                                <tr>
+                                    <td>9:35</td><td>9:45</td><td>9:55</td><td>10:05</td>
+                                </tr>
+                                <tr>
+                                    <td>10:15</td><td>10:25</td><td>10:35</td><td>10:45</td>
+                                </tr>
+                                <tr>
+                                    <td>10:55</td><td>11:05</td><td>11:15</td><td>11:25</td>
+                                </tr>
+                                <tr>
+                                    <td>11:35</td><td>11:45</td><td>11:55</td><td>12:05</td>
+                                </tr>
+                                <tr>
+                                    <td>12:15</td><td>12:25</td><td>12:35</td><td>12:45</td>
+                                </tr>
+                                <tr>
+                                    <td>12:55</td><td>13:05</td><td>13:15</td><td>13:25</td>
+                                </tr>
+                                <tr>
+                                    <td>13:35</td><td>13:45</td><td>13:55</td><td>14:05</td>
+                                </tr>
+                                <tr>
+                                    <td>14:15</td><td>14:25</td><td>14:35</td><td>14:45</td>
+                                </tr>
+                                <tr>
+                                    <td>14:55</td><td>15:05</td><td>15:15</td><td>15:25</td>
+                                </tr>
+                                <tr>
+                                    <td>15:35</td><td>15:45</td><td>15:55</td><td>16:05</td>
+                                </tr>
+                                <tr>
+                                    <td>16:15</td><td>16:25</td><td>16:35</td><td>16:45</td>
+                                </tr>
+                                <tr>
+                                    <td>16:55</td><td>17:05</td><td>17:15</td><td>17:25</td>
+                                </tr>
+                                <tr>
+                                    <td>17:35</td><td>17:45</td><td>17:55</td><td>18:05</td>
+                                </tr>
+                                <tr>
+                                    <td>18:15</td><td>18:25</td><td>18:35</td><td>18:45</td>
+                                </tr>
+                                <tr>
+                                    <td>18:55</td><td>19:05</td><td>19:15</td><td>19:25</td>
+                                </tr>
+                                <tr>
+                                    <td>19:35</td><td>19:45</td><td>19:55</td><td>20:05</td>
+                                </tr>
+                                <tr>
+                                    <td>20:15</td><td>20:25</td><td>20:35</td><td>20:45</td>
+                                </tr>
+                                <tr>
+                                    <td>20:55</td><td>21:05</td><td>21:15</td><td>21:25</td>
+                                </tr>
+                                <tr>
+                                    <td>21:35</td><td>21:45</td><td>21:55</td><td>22:05</td>
+                                </tr>
+                            </table>
+                            <table align="center" border="1" class="skrijgo informacii" id="fivetable">
+                                <tr>
+                                    <th>Main stop A<hr>Bukovska naselba<br>Буковска населба</th>
+                                    <th>Main stop B<hr>Seherzada<br>Шехерзада</th>
+                                </tr>
+                                <tr>
+                                    <td>5:00</td><td>5:15</td>
+                                </tr>
+                                <tr>
+                                    <td>5:45</td><td>6:00</td>
+                                </tr>                                
+                                <tr>
+                                    <td>6:30</td><td>6:45</td>
+                                </tr>                                
+                                <tr>
+                                    <td>7:15</td><td>7:30</td>
+                                </tr>                                
+                                <tr>
+                                    <td>8:00</td><td>8:15</td>
+                                </tr>
+                                <tr>
+                                    <td>8:45</td><td>9:00</td>
+                                </tr>                                
+                                <tr>
+                                    <td>9:30</td><td>9:45</td>
+                                </tr>                                
+                                <tr>
+                                    <td>10:15</td><td>10:30</td>
+                                </tr> 
+                                <tr>
+                                    <td>11:00</td><td>11:15</td>
+                                </tr>
+                                <tr>
+                                    <td>11:45</td><td>12:00</td>
+                                </tr>                                
+                                <tr>
+                                    <td>12:30</td><td>12:45</td>
+                                </tr>                                
+                                <tr>
+                                    <td>13:15</td><td>13:30</td>
+                                </tr> 
+                                <tr>
+                                    <td>14:00</td><td>14:15</td>
+                                </tr>
+                                <tr>
+                                    <td>14:45</td><td>15:00</td>
+                                </tr>                                
+                                <tr>
+                                    <td>15:30</td><td>15:45</td>
+                                </tr>                                
+                                <tr>
+                                    <td>16:15</td><td>16:30</td>
+                                </tr> 
+                                <tr>
+                                    <td>17:00</td><td>17:15</td>
+                                </tr>
+                                <tr>
+                                    <td>17:45</td><td>18:00</td>
+                                </tr>                                
+                                <tr>
+                                    <td>18:30</td><td>18:45</td>
+                                </tr>                                
+                                <tr>
+                                    <td>19:15</td><td>19:30</td>
+                                </tr> 
+                                <tr>
+                                    <td>20:00</td><td>20:15</td>
+                                </tr>
+                                <tr>
+                                    <td>20:45</td><td>21:00</td>
+                                </tr>                                
+                                <tr>
+                                    <td>21:30</td><td>21:45</td>
+                                </tr>                                
+                                <tr>
+                                    <td>22:15</td><td>22:30</td>
+                                </tr> 
+                            </table>
+                            <table align="center" border="1" class="skrijgo informacii" id="fiveatable">
+                                <tr>
+                                    <th>Main stop A<hr>Seherzada<br>Шехерзада</th><td>6:00</td><td>7:00</td><td>8:00</td><td>12:00</td><td>13:00</td><td>14:00</td><td>15:00</td><td>16:00</td><td>19:30</td><td>20:30</td>
+                                </tr>
+                                <tr>
+                                    <th>Main stop B<hr>Vero<br>Веро</th><td>6:05</td><td>7:05</td><td>8:05</td><td>12:05</td><td>13:05</td><td>14:05</td><td>15:05</td><td>16:05</td><td>19:35</td><td>20:35</td>
+                                </tr>
+                                <tr>
+                                    <th>Main stop C<hr>Bolnica<br>Болница</th><td>6:10</td><td>7:10</td><td>8:10</td><td>12:10</td><td>13:10</td><td>14:10</td><td>15:10</td><td>16:10</td><td>19:40</td><td>20:40</td>
+                                </tr>
+                                <tr>
+                                    <th>Main stop D<hr>Bukovska naselba<br>Буковска населба</th><td>6:25</td><td>7:25</td><td>-</td><td>12:25</td><td>13:25</td><td>14:25</td><td>15:25</td><td>-</td><td>19:55</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <th>Main stop E<hr>Bukovo<br>Буково</th><td>6:30</td><td>7:30</td><td>-</td><td>12:30</td><td>13:30</td><td>14:30</td><td>15:30</td><td>-</td><td>20:00</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <th>Main stop F<hr>Bukovska naselba<br>Буковска населба</th><td>6:35</td><td>7:35</td><td>-</td><td>12:35</td><td>13:35</td><td>14:35</td><td>15:35</td><td>-</td><td>20:05</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <th>Main stop G<hr>Zeleznicka stanica<br>Железничка станица</th><td>6:40</td><td>7:40</td><td>-</td><td>12:40</td><td>13:40</td><td>14:40</td><td>15:40</td><td>-</td><td>20:10</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <th>Main stop H<hr>At-pazar<br>Ат-пазар</th><td>6:50</td><td>7:50</td><td>-</td><td>12:50</td><td>13:50</td><td>14:50</td><td>15:50</td><td>-</td><td>20:20</td><td>-</td>
+                                </tr>
+                            </table>
+                            <table align="center" border="1" class="skrijgo informacii" id="sixtable">
+                                <tr>
+                                    <th>Main stop A<hr>Bolnica<br>Болница</th>
+                                    <th>Main stop B<hr>Javor<br>Јавор</th>
+                                    <th>Main stop C<hr>Dolno Orizari<br>Долно Оризари</th>
+                                    <th>Main stop D<hr>Karamani<br>Карамани</th>
+                                    <th>Main stop E<hr>Trn<br>Трн</th>
+                                </tr>
+                                <tr>
+                                    <td>6:00</td><td>6:05</td><td>6:10</td><td>6:15</td><td>6:20</td>
+                                </tr>
+                                <tr>
+                                    <td>6:45</td><td>6:55</td><td>7:15</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>7:35</td><td>7:45</td><td>7:55</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>8:40</td><td>8:50</td><td>9:00</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>9:20</td><td>9:30</td><td>9:40</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>10:00</td><td>10:10</td><td>10:20</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>10:45</td><td>10:50</td><td>11:05</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>11:30</td><td>11:40</td><td>11:50</td><td>12:00</td><td>12:05</td>
+                                </tr>
+                                <tr>
+                                    <td>12:40</td><td>12:50</td><td>13:05</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>13:30</td><td>13:40</td><td>13:50</td><td>14:00</td><td>14:05</td>
+                                </tr>
+                                <tr>
+                                    <td>14:35</td><td>14:45</td><td>15:00</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>15:25</td><td>15:35</td><td>15:55</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>16:25</td><td>16:35</td><td>16:45</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>18:00</td><td>18:10</td><td>18:30</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>18:50</td><td>19:00</td><td>19:10</td><td>-</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>19:35</td><td>19:45</td><td>19:55</td><td>20:00</td><td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>20:25</td><td>20:40</td><td>20:50</td><td>-</td><td>-</td>
+                                </tr>
+                            </table>
+                    </div>
+                </section>  
+
+    </body>
+
+</html>
+
+<!-- МОЖИ ДА СЕ КЛАЈ ПОЗАДИНА СЛИКА ОД БИТОЛА ВО CONTAINER -->
